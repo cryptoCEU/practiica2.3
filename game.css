@@ -1,0 +1,75 @@
+html {
+  overflow: hidden;
+  background-image: url("./assets/bg.png");
+  background-size: 1440px;
+}
+
+.Opponent {
+	animation: rotation 3s infinite linear;
+	-webkit-animation: rotation 3s infinite linear;
+}
+
+.Shot {
+	animation: rotation 1s infinite linear;
+	-webkit-animation: rotation 1s infinite linear;
+}
+
+.paused .Opponent {
+	animation: none;
+	-webkit-animation: none;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+		-webkit-transform: rotate(359deg);
+	}
+}
+
+.gamebutton {
+	border: none;
+	background: rgb(179, 26, 26);
+	color: #ddd;
+	padding: 10px 20px;
+	outline: none;
+	font-family: monospace;
+	cursor: pointer;
+	border-style: solid;
+	border-color:rgb(179, 26, 26);
+}
+.gamebutton:hover {
+	background-color: #ddd;
+	color: rgb(179, 26, 26);
+
+}
+.bloque{
+	border: 5px outset rgb(179, 26, 26);
+	float: left;
+	padding: 10px 20px;
+	background-color: #ddd;
+}
+#logo{
+	width: 225px;
+    height: auto;
+}
+
+ul{
+	color: rgb(179, 26, 26);
+
+}
+.desc{
+	border: 5px outset rgb(179, 26, 26);
+	width:225px;
+    word-wrap: break-word;
+	text-align: center;
+	font-family: monospace;
+	color: rgb(179, 26, 26);;
+}
+.desc:hover{
+	background-color: rgb(179, 26, 26);
+	color: #ddd;;
+}

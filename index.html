@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Shooter Game</title>
+  <link rel="shortcut icon" type="image/jpg" href="assets/favicon.ico"/>
+  <link type="text/css" rel="stylesheet" href="game.css">
+  <script src="Game.js" type="text/javascript"></script>
+  <script src="Entity.js" type="text/javascript"></script>
+  <script src="Character.js" type="text/javascript"></script>
+  <script src="Player.js" type="text/javascript"></script>
+  <script src="Opponent.js" type="text/javascript"></script>
+  <script src="Shot.js" type="text/javascript"></script>
+  <script src="main.js" type="text/javascript"></script>
+  <script src="Boss.js" type="text/javascript"></script>
+  <script src="MegaBoss.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="bloque">
+    <div class="logo">
+      <img id="logo" src="./assets/logo.png" alt="Logo">
+    </div>
+    <div class="buttons">
+      <button id="pause" class="gamebutton" onclick="this.blur();">Pausa</button>
+      <button id="reset" class="gamebutton" onclick="this.blur();">NUEVA PARTIDA</button>
+    </div>
+    <div class="stats">
+      <ul>
+        <li id="scoreli"></li>
+        <li id="livesli"></li>
+      </ul>
+    </div>
+    <div class="desc">
+      <p>El juego consisite en eliminar a los disitinos enemigos que irán apareciendo. Hay tres tipos de enemigo: normal, medio y experto. Logra derrotar a todos con vida y ganarás la partida.</p>
+    </div>
+    <div class="footer">
+      <p class="gamebutton">&copy;Copyright Jose Garcia</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+<!-- El juego consisite en eliminar a los disitinos enemigos que irán apareciendo. Hay tres tipos de enemigo: normal, medio y experto. Logra derrotar a todos con vida y ganarás la partida. -->
